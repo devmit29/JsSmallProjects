@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+h1{
+    height: 5rem;
+    background-color: #2F3061;
+    color: #F7FFF7;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 2.5rem;
+}
+
+.choices{
+    height: 165px;
+    width: 165px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.choices:hover{
+    background-color: #2F3061;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    margin: 0 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    align-items: center;
+    gap: 4rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+#user-score, #comp-score{
+font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+.hide{
+    display: none;
+}
+#msg, #reset{
+    display: inline;
+    font-size: 2rem;
+    background-color: #2F3061;
+    color: #F7FFF7;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.reset-btn{
+    cursor: pointer;
+    margin-top: 4rem;
+}
+.win-msg{
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+#win-msg{
+    font-size: 4rem;
+    color:#2F3061;
+    padding: 1rem;
+}
